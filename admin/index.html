@@ -2,73 +2,13 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <title>Admin | Óticas Kairós</title>
+    <title>Painel Administrativo | Óticas Kairós</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- Fonte e ícones -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-    <!-- Estilo do CMS com tema escuro + animações -->
-    <style>
-      body {
-        margin: 0;
-        font-family: 'Montserrat', sans-serif;
-        background: linear-gradient(135deg, #e63946, #f1faee);
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        animation: fadeIn 1s ease-in-out;
-      }
-
-      .admin-wrapper {
-        text-align: center;
-        color: #fff;
-        max-width: 600px;
-        padding: 20px;
-      }
-
-      h1 {
-        font-size: 2.5rem;
-        margin-bottom: 10px;
-        text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-      }
-
-      p {
-        font-size: 1.1rem;
-        margin-bottom: 20px;
-      }
-
-      .loader {
-        border: 4px solid rgba(255, 255, 255, 0.2);
-        border-top: 4px solid #fff;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        animation: spin 1s linear infinite;
-        margin: 0 auto;
-      }
-
-      @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-
-      @keyframes fadeIn {
-        from { opacity: 0; transform: scale(0.95); }
-        to   { opacity: 1; transform: scale(1); }
-      }
-    </style>
-
-    <!-- Script do CMS -->
+    <!-- Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   </head>
   <body>
-    <div class="admin-wrapper">
-      <h1>🎯 Painel Administrativo</h1>
-      <p>Carregando o gerenciador de produtos...</p>
-      <div class="loader"></div>
-    </div>
+    <!-- A interface do Netlify CMS será carregada automaticamente aqui -->
   </body>
 </html>
