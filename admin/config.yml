@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "images/uploads" # pasta para imagens
+media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
@@ -14,5 +14,5 @@ collections:
     fields:
       - { label: "Nome", name: "title", widget: "string" }
       - { label: "Descrição", name: "description", widget: "text" }
-      - { label: "Preço", name: "price", widget: "number" }
+      - { label: "Preço", name: "price", widget: "string" }
       - { label: "Imagem", name: "image", widget: "image" }
